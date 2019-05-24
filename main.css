@@ -71,8 +71,14 @@ header .text p:nth-child(3){
 	text-align: center;
 }
 .elem img{
-	padding: 0 50px 50px 50px;
+	padding: 50px 50px 50px 50px;
 }
+.section_1 .elem:hover img{
+	border: 0px solid red;
+	border-radius: 50%;
+	background: red;
+}
+
 
 .section_2{
 	position: relative;
