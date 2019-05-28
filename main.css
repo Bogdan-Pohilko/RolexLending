@@ -1,66 +1,70 @@
+*{
+	box-sizing: border-box;
+}
 body{
 	margin: 0;
 }
-header{
-	position: relative;
+/*@media screen and (max-width: 992px) {} */
+
+/*Начало второй секции*/
+
+.section_0{
+	display: flex-box;
 	height: 100vh;
 	background-image: url(img/bg_1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.logo img{
+.section_0 header{
+	margin: 0 20% 0 20%;
+	padding-top:1vh;
+    justify-content: space-between;
+    display: flex;
+}
 
-	position: absolute;
-	top: 40px;
-	left: 20%;
-	
+.section_0 header span.menu{
+	font-size: 3em;
+	color: #fff;
+	vertical-align:top;
 }
-.menu img{
-	position: absolute;
-	top: 45px;
-	left: 70%;
+.logo img{
+ 	padding-top: 10px;
 }
-header div.text{
-	position: absolute;
-	left: 20%;
-	top: 40vh;
-}
-header .text p{
+
+
+.section_0 div.text{
+	margin:30vh 20% 0 20%;
 	color: white;	
 	text-transform: uppercase;
-	margin: 0 0  0.5em 0;
 }
-header .text p:nth-child(1){
+
+.section_0 .text h4{
 	font-family: Georgia, serif;
 	font-size: 2em;
-	letter-spacing:5px;
+	letter-spacing:3px;
+	margin-bottom: -2em;
 }
-header .text p:nth-child(2){
+.section_0 .text h3{
 	font-family: Georgia, bold;
 	font-size: 4.5em;
 	font-weight: 900;
 	letter-spacing:5px;
+	margin-bottom: -0.25em;
 }
-header .text p:nth-child(3){
-	font-family: 'Raleway', sans-serif;
-	font-size: 1em;
+.section_0 .text h5{
+	font-family: 'Raleway', normal;
+	font-size: 1.25em;
 	letter-spacing:3px;
+	font-weight: bold;
 }
-.section_1{
-	height: 70vh;
-	background: ##FFFFFF;
-	display: flex;
-	flex-direction: row;
-    justify-content: center;
-    align-items:center;
-    padding-left: 20%;
-    padding-right: 20%;
+/*Начало второй секции*/
 
+.section_1{
+	background: #FFFFFF;
+	display: flex;
+	padding:10% 20% 15% 20%;
 }
-.section_1 div{
-	width: 150px;
-	margin: 0 auto;
-}
+
 .section_1 h3{
 	font-family: Georgia, serif;
 	text-align: center;
@@ -70,15 +74,22 @@ header .text p:nth-child(3){
 	font-size: 10pt;
 	text-align: center;
 }
-.elem img{
-	padding: 50px 50px 50px 50px;
+.section_1 .element .img{
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items:center;
+	height: 166px;
+	width: 166px;
+	margin:0 auto;
 }
-.section_1 .elem:hover img{
-	border: 0px solid red;
+.section_1 .element:hover .img{
+	fill:white;
 	border-radius: 50%;
-	background: rgba(255,0,0,0.6);
+	background: rgba(255,0,0,0.7);
 }
 
+/*Начало третей секции*/
 
 .section_2{
 	position: relative;
@@ -88,15 +99,19 @@ header .text p:nth-child(3){
 	background-repeat: no-repeat;
 }
 .section_2 img.phone{
-	width: 15%;
+	height:75%;
 	position: absolute;
 	bottom:0;
 	left: 15%;
 }
+.section_2 .text{
+	position: absolute;
+	top: 20%;
+	left: 35%;
+}
 .section_2 h2,a{
 	color: white;
 	font-family: Georgia, serif;
-	
 	font-size: 2em;
 	font-weight: normal;
 }
@@ -106,16 +121,12 @@ header .text p:nth-child(3){
 	font-size: 12pt;
 	letter-spacing:0.5px;
 }
-.section_2  a img{
+.section_2  a img.arrow{
 	width: 20px;
 	vertical-align: top;
 }
-.section_2 .text{
-	position: absolute;
-	top: 27%;
-	left: 35%;
-}
-.section_2 .text a{
+
+.section_2 .text a.read_more{
 	text-decoration: none;
 	font-size: 1em;
 }
