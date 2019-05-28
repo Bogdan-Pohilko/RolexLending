@@ -156,6 +156,7 @@ body{
 .section_3 .icons{
 	color: #6b6b6b;
 	display: flex;
+	flex-basis: width:50%;
 }
 .section_3 .icons i {
 	
