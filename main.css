@@ -153,6 +153,13 @@ body{
 	padding:0 20%;
 	width: 10px;
 }
-.section_3 .icons {
+.section_3 .icons{
+	color: #6b6b6b;
+	display: flex;
+}
+.section_3 .icons i {
+	
+}
+.section_3 .icons h3{
 	
 }
