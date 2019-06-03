@@ -158,6 +158,7 @@ body{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	margin-bottom: 5%;
 }
 .section_3 .icons .elem{
 	width: 50%;
@@ -169,6 +170,32 @@ body{
 	padding-right: 20px;
 
 }
-.section_3 .icons h3{
-	
+
+/* Начало Четвертой секции */
+.section_4{
+	background-image: url(img/bg_3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	position: relative;
+
+}
+.section_4 div{
+	-margin: 0 20%;
+	-flex: 1 800px;
+}
+.section_4 h2{
+	color: #FFFFFF;
+	font-family: Georgia, serif;
+	font-size: 2em;
+	font-weight: normal;
+	text-align: center;
+}
+.section_4 img{
+	position: absolute;
+	bottom: 0;	
+	height:60vh;
 }
