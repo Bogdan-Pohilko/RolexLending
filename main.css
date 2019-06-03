@@ -176,26 +176,39 @@ body{
 	background-image: url(img/bg_3.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 80vh;
+	-height: 80vh;
+	position: relative;
 	display: flex;
+	align-items: center;
+	flex-direction:column;
+
+/*display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	position: relative;
-
-}
-.section_4 div{
-	-margin: 0 20%;
-	-flex: 1 800px;
+	*/
 }
 .section_4 h2{
 	color: #FFFFFF;
 	font-family: Georgia, serif;
 	font-size: 2em;
 	font-weight: normal;
-	text-align: center;
 }
 .section_4 img{
 	position: absolute;
 	bottom: 0;	
-	height:60vh;
+	height:60%;
+}
+.section_4 div.text{
+	margin:10% 20%;
+	height: 100%;
+	color: #FFFFFF;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+}
+.section_4 div.text p{
+	width: 40%;
+	text-align: center;
 }
