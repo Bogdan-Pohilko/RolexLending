@@ -216,7 +216,7 @@ body{
 }
 /*Начало Пятой Секции */
 .section_5 {
-	margin:0 19%;
+	margin:10% 19%;
 }
 .section_5 header h2{
 	color: #444;
@@ -250,10 +250,12 @@ body{
 	background: #2d2d2d;
 	margin-top: 5%;
 	color: white;
-	display: flex;
+	/*display: flex;
 	flex-wrap: wrap;
 	align-content: center;
-	justify-content: center;
+	justify-content: center;*/
+	padding-top: 2em;
+	text-align: center;
 }
 .section_5 .skills .elem:hover{
 	background: #e55454;
@@ -269,3 +271,141 @@ body{
 .section_5 .skills .elem .icon{
 	margin: 10px;
 }
+
+/*Начало Шестой Секции */
+.section_6-progress {
+	padding:0 20%;
+	color: #fff;
+	font-family: Georgia, serif;
+	background-image: url(img/bg_4.jpg);
+}
+.section_6-progress-title{
+	padding-top: 10%;
+	padding-bottom: 2%;
+	font-family: Georgia, serif;
+	font-size: 2em;
+	font-weight: normal;
+	text-align: center;
+}
+.section_6-progress-subtitle{
+	color: #fff;
+	font-family: Open Sans, system-ui;
+	font-size: 9pt;
+	letter-spacing:0.5px;
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+.section_6-progress__ring{
+	display: flex;
+	justify-content: space-between;
+}
+.section_6-progress__ring-item{
+	margin-top: 10%;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+.section_6-progress__ring-item svg{
+	width: 200px;
+	height: 200px;
+}
+.item-1 .progress-ring__circle{
+	transform-origin: center;
+	transform: rotate(180deg);
+	stroke-linecap:butt;
+	stroke-dasharray:578,578;
+	stroke-dashoffset:387;
+}
+.item-2 .progress-ring__circle{
+	transform-origin: center;
+	transform: rotate(90deg);
+	stroke-linecap:butt;
+	stroke-dasharray:578,578;
+	stroke-dashoffset:173;
+}
+.item-3 .progress-ring__circle{
+	transform-origin: center;
+	transform: rotate(135deg);
+	stroke-linecap:butt;
+	stroke-dasharray:578,578;
+	stroke-dashoffset:289;
+}
+.section_6-progress__ring-item-name{
+	padding-top: 5px;
+	padding-bottom: 20%;
+	font-size: 12pt;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+.section_6-progress__ring-item-position{
+	position: relative;
+}
+.section_6-progress__ring-item-percent{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: Georgia, serif;
+	font-size: 35pt;
+	text-align: center;
+}
+/* === team ===*/
+.section_7-team{
+	color: #c6c8cd;
+	width: 940px;
+	margin: 0 auto;
+}
+.section_7-team-title{
+	padding-top: 10%;
+	padding-bottom: 2%;
+	font-family: Georgia, serif;
+	font-size: 2em;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	color:black;
+}
+.section_7-team-subtitle{
+	font-family: Open Sans, system-ui;
+	font-size: 9pt;
+	letter-spacing:0.5px;
+	text-align: center;
+	border-bottom: 1px solid #c6c8cd;
+	width: 960px;
+	padding-bottom: 20px;
+	color:black;
+}
+.section_7-team-items{
+	display: flex;
+	padding-top: 90px;
+	text-align: center;
+}
+.section_7-team-item{
+	
+}
+.section_7-team-item-title{
+	color:black;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-top: 35px;
+}
+.section_7-team-item-subtitle{
+	padding-top: 4px;
+}
+.section_7-team-item-description{
+	padding-top: 20px;
+}
+.section_7-team-item-contacts{
+	padding-top: 34px;
+	padding-bottom: 84px;
+}
+.section_7-team-item-contacts i + i{
+	padding-left: 20px;
+}
+/* === /team ===*/
