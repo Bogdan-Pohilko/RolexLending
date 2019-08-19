@@ -395,10 +395,12 @@ body{
 	padding-top: 35px;
 }
 .section_7-team-item-subtitle{
+	font-size: 14px;
 	padding-top: 4px;
 }
 .section_7-team-item-description{
 	padding-top: 20px;
+	font-size: 13px;
 }
 .section_7-team-item-contacts{
 	padding-top: 34px;
@@ -412,6 +414,7 @@ body{
 /* === footer ===*/
 .section_8-footer{
 	background: url(img/bg_footer.png) no-repeat;
+	background-size: cover;
 	color: #fff;
 	text-align: center;
 }
