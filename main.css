@@ -14,6 +14,7 @@ body{
 	background-image: url(img/bg_1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 .section_0 header{
 	margin: 0 20% 0 20%;
@@ -62,7 +63,7 @@ body{
 .section_1{
 	background: #FFFFFF;
 	display: flex;
-	padding:10% 20% 15% 20%;
+	padding:5% 20% 5% 20%;
 }
 
 .section_1 h3{
@@ -73,6 +74,7 @@ body{
 	font-family: Open Sans, system-ui;
 	font-size: 10pt;
 	text-align: center;
+	color: #666;
 }
 .section_1 .element .img{
 	display: flex;
@@ -94,9 +96,10 @@ body{
 .section_2{
 	position: relative;
 	height: 70vh;
-	background-image: url(img/bg_2.png);
+	background-image: url(img/bg_2_phone.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center;
 }
 .section_2 img.phone{
 	height:50vh;
