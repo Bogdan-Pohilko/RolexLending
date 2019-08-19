@@ -63,10 +63,13 @@ body{
 .section_1{
 	background: #FFFFFF;
 	display: flex;
-	padding:5% 20% 5% 20%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
-
-.section_1 h3{
+.section_1 .section-inner{
+	display: flex;
+}
+.section_1 h3 {
 	font-family: Georgia, serif;
 	text-align: center;
 }
@@ -78,9 +81,9 @@ body{
 }
 .section_1 .element .img{
 	display: flex;
-	flex-direction: row;
     justify-content: center;
     align-items:center;
+    flex:1;
 	height: 166px;
 	width: 166px;
 	margin:0 auto;
@@ -132,7 +135,9 @@ body{
 }
 /*Начало Третей секции*/
 .section_3 {
-	margin:0 20%;
+	max-width: 899px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .section_3 header h2{
 	color: #444;
@@ -436,7 +441,7 @@ body{
 	line-height: 28pt;
 }
 .section_8-footer-subtitle  i{
-	padding-left: 80px;
+	padding-left: 5%;
 }
 .section_8-footer-form{
 	padding-top: 80px;
