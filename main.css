@@ -175,7 +175,9 @@ body{
 	padding-right: 20px;
 
 }
-
+.section_3 .icons .elem:hover i{
+	color: #e54c4c;
+}
 /* Начало Четвертой секции */
 .section_4{
 	background-image: url(img/bg_3.jpg);
