@@ -401,7 +401,7 @@ body{
 	text-align: center;
 }
 .section_7-team-item{
-	
+		font-family: Georgia, serif;
 }
 .section_7-team-item-title{
 	color:black;
@@ -414,7 +414,10 @@ body{
 	padding-top: 4px;
 }
 .section_7-team-item-description{
+	font-family: Open Sans, system-ui;
 	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
 	font-size: 13px;
 }
 .section_7-team-item-contacts{
@@ -432,6 +435,7 @@ body{
 	background-size: cover;
 	color: #fff;
 	text-align: center;
+
 }
 .section_8-footer-subtitle{
 	background: #e54c4c;
@@ -445,8 +449,11 @@ body{
 }
 .section_8-footer-form{
 	padding-top: 80px;
-	padding-left: 20%;
-	padding-right: 20%;
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -472,7 +479,7 @@ body{
 	background: #e54c4c;
 	color: #fff;
 	text-transform: uppercase;
-	font-family: Georgia, serif;
+: Georgia, serif;
 	letter-spacing: .1rem;
 	font-size: 14px;
 
@@ -496,7 +503,7 @@ body{
 	font-size: 13px;
 	line-height: 22px;
 	font-family: Open Sans, system-ui;
-	text-align: justify;
+	text-align: center;
 }
 .section_8-footer-logo{
 	padding-top: 70px;
