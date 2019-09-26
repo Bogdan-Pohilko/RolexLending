@@ -27,6 +27,7 @@ body{
 	font-size: 3em;
 	color: #fff;
 	vertical-align:top;
+	cursor: pointer;
 }
 .logo img{
  	padding-top: 10px;
@@ -278,6 +279,8 @@ body{
 	font-family: Open Sans;
 	text-align: center;
 	font-size: 9pt;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .section_5 .skills .elem .icon{
 	margin: 10px;
