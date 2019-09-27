@@ -6,18 +6,20 @@ body{
 }
 /*@media screen and (max-width: 992px) {} */
 
-/*Начало первой секции*/
+/*Начало нулевой секции*/
 
 .section_0{
-	display: flex-box;
 	height: 100vh;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-image: url(img/bg_1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .section_0 header{
-	margin: 0 20% 0 20%;
+    margin: 0 auto;
+    max-width: 960px;
 	padding-top:1vh;
     justify-content: space-between;
     display: flex;
@@ -32,32 +34,46 @@ body{
 .logo img{
  	padding-top: 10px;
 }
+.section_0 .content{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+}
 
-
-.section_0 div.text{
-	margin:30vh 20% 0 20%;
+.section_0 .content .text{
+	margin:0 auto;
+	width: 960px;
+	text-align: left;
 	color: white;	
 	text-transform: uppercase;
+	font-family: Georgia;
 }
 
-.section_0 .text h4{
-	font-family: Georgia, serif;
+.section_0 .text .h4{
+/*	font-family: Georgia, serif;
 	font-size: 2em;
-	letter-spacing:3px;
-	margin-bottom: -2em;
-}
-.section_0 .text h3{
-	font-family: Georgia, bold;
-	font-size: 4.5em;
-	font-weight: 900;
+	letter-spacing:3px;*/
+	font-family: Georgia, regular;
+	line-height: 40px;
+	font-size: 2em;
+	font-weight: 400;
 	letter-spacing:5px;
-	margin-bottom: -0.25em;
 }
-.section_0 .text h5{
-	font-family: 'Raleway', normal;
-	font-size: 1.25em;
-	letter-spacing:3px;
-	font-weight: bold;
+.section_0 .text .h3{
+	margin-top: 45px;
+	font-family: Georgia, bold;
+	font-size: 4em;
+	font-weight: 700;
+	letter-spacing:5px;
+}
+.section_0 .text .h5{
+	margin-top: 45px;
+	font-family: "Open Sans";
+	font-size: 26px;
+	font-weight: 400;
+	line-height: 40px;
+	text-transform: uppercase;
 }
 /*Начало первой секции*/
 
