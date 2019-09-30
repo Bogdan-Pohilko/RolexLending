@@ -55,21 +55,21 @@ body{
 	font-size: 2em;
 	letter-spacing:3px;*/
 	font-family: Georgia, regular;
-	font-size: 5vw;
+	font-size: 4vw;
 	font-weight: 400;
 	letter-spacing:5px;
 }
 .section_0 .text .h3{
 	margin-top: 45px;
 	font-family: Georgia, bold;
-	font-size: 10vw;
+	font-size: 9vw;
 	font-weight: 700;
 	letter-spacing:5px;
 }
 .section_0 .text .h5{
 	margin-top: 45px;
 	font-family: "Open Sans";
-	font-size: 26px;
+	font-size: 2vw;
 	font-weight: 400;
 	line-height: 40px;
 	text-transform: uppercase;
